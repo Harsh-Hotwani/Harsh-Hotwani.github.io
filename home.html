@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        header {
+            padding-left: 1px;
+            padding-right: 1px;
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY6GgsFzPVOHiZCdcLo0yzm-7ZyxlZs9hUYQ&usqp=CAU");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: top center;
+            position: relative;
+            color: white;
+        }
+
+        .head {
+            text-align: center;
+        }
+
+        .contactus {
+            background-color: rgb(71, 87, 138);
+            color: white;
+            text-align: center;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+            position: relative;
+            top: 200vh;
+        }
+
+        img {
+            display: flex;
+            padding-left: 80px;
+            padding-top: 40px;
+        }
+
+        .img {
+            height: 250px;
+            padding-left: 45px;
+            display: flex;
+            flex-direction: row;
+            float: left;
+        }
+
+        .img1 {
+            height: 200px;
+            padding-top: 50px;
+            display: flex;
+            flex-direction: row;
+            float: left;
+        }
+
+        .what {
+            margin-left: 30px;
+            margin-right: 50px;
+            padding-top: 20px;
+            display: flex;
+            flex-direction: row;
+            float: right;
+            padding-bottom: 20px;
+            height: 180px;
+            width: 600px;
+            padding-left: 20px;
+            padding-right: 20px;
+            border: 2px solid darkgray;
+            background-color: rgb(255, 255, 255);
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .imp {
+            margin-left: 30px;
+            margin-right: 50px;
+            margin-top: 20px;
+            padding-top: 30px;
+            display: flex;
+            flex-direction: row;
+            float: right;
+            padding-bottom: 20px;
+            height: 200px;
+            width: 600px;
+            padding-left: 20px;
+            padding-right: 20px;
+            border: 2px solid darkgray;
+            background-color: rgb(255, 255, 255);
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .extra {
+            background-color: rgb(255, 255, 255);
+            font-family: 'Times New Roman', Times, serif;
+            margin-left: 30px;
+            margin-right: 50px;
+            margin-top: 20px;
+            padding-top: 30px;
+            display: flex;
+            flex-direction: row;
+            float: right;
+            padding-bottom: 20px;
+            height: 200px;
+            width: 1200px;
+            padding-left: 20px;
+            padding-right: 20px;
+            border: 2px solid darkgray;
+
+        }
+
+        .img2 {
+            height: 300px;
+            padding-top: 50px;
+            display: flex;
+            flex-direction: row;
+            float: left;
+        }
+
+        .employ {
+            margin-left: 30px;
+            margin-right: 50px;
+            margin-top: 20px;
+            padding-top: 30px;
+            display: flex;
+            flex-direction: row;
+            float: right;
+            padding-bottom: 20px;
+            height: 450px;
+            width: 600px;
+            padding-left: 20px;
+            padding-right: 20px;
+            border: 2px solid darkgray;
+            background-color: rgb(255, 255, 255);
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .img3 {
+            height: 300px;
+            padding-top: 50px;
+            padding-left: 80px;
+            display: flex;
+            flex-direction: row;
+            float: left;
+        }
+
+        .img4 {
+            height: 300px;
+            padding-top: 50px;
+            padding-left: 60px;
+            display: flex;
+            flex-direction: row;
+            float: left;
+        }
+
+        .img5 {
+            height: 300px;
+            padding-top: 30px;
+            padding-left: 40px;
+            display: flex;
+            flex-direction: row;
+            float: left;
+        }
+
+        .img6 {
+            height: 300px;
+            padding-top: 50px;
+            padding-left: 80px;
+            display: flex;
+            flex-direction: row;
+            float: left;
+        }
+
+        .img7 {
+            height: 300px;
+            padding-top: 50px;
+            padding-left: 90px;
+            width: 500px;
+            display: flex;
+            flex-direction: row;
+            float: left;
+        }
+
+        .agriculture {
+            margin-left: 30px;
+            margin-right: 300px;
+            margin-top: 20px;
+            padding-top: 30px;
+            display: flex;
+            flex-direction: row;
+            float: right;
+            padding-bottom: 20px;
+            height: 300px;
+            width: 600px;
+            padding-left: 20px;
+            padding-right: 20px;
+            border: 2px solid darkgray;
+            background-color: rgb(255, 255, 255);
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .women {
+            margin-left: 30px;
+            margin-right: 50px;
+            margin-top: 50px;
+            padding-top: 30px;
+            display: flex;
+            flex-direction: row;
+            float: right;
+            padding-bottom: 20px;
+            height: 250px;
+            width: 500px;
+            padding-left: 20px;
+            padding-right: 20px;
+            border: 2px solid darkgray;
+            background-color: rgb(255, 255, 255);
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .ujjwala {
+            margin-left: 30px;
+            margin-right: 100px;
+            margin-top: 70px;
+            padding-top: 10px;
+            display: flex;
+            flex-direction: row;
+            float: right;
+            padding-bottom: 30px;
+            height: 200px;
+            width: 400px;
+            padding-left: 20px;
+            padding-right: 20px;
+            border: 2px solid darkgray;
+            background-color: rgb(255, 255, 255);
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .education {
+            margin-left: 30px;
+            margin-right: 300px;
+            margin-top: 20px;
+            padding-top: 30px;
+            display: flex;
+            flex-direction: row;
+            float: right;
+            padding-bottom: 20px;
+            height: 550px;
+            width: 600px;
+            padding-left: 20px;
+            padding-right: 20px;
+            border: 2px solid darkgray;
+            background-color: rgb(255, 255, 255);
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .health {
+            margin-left: 30px;
+            margin-right: 300px;
+            margin-top: 20px;
+            padding-top: 30px;
+            display: flex;
+            flex-direction: row;
+            float: right;
+            padding-bottom: 20px;
+            height: 570px;
+            width: 600px;
+            padding-left: 20px;
+            padding-right: 20px;
+            border: 2px solid darkgray;
+            background-color: rgb(255, 255, 255);
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        footer {
+            position: relative;
+            top: 450vh;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="head">
+            <p><img src=""><b>
+                    <h2>The SchemeDeck</h2>
+                </b></p>
+        </div>
+    </header>
+    <main>
+        <div class="img"> <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSY-37cSIO2KxlYe5U-cDd1uhvDN8q3DVDpNP6R_bzJ3U6ciyA60vQxFl7ndV0UgNCqPCY&usqp=CAU">
+        </div>
+        <br><br>
+        <div class="what">
+            <p>
+                <b> WHAT IS RURAL DEVELOPMENT....?</b>
+                <br>
+                <b>Rural development</b> is the process of improving the quality of life and economic well-being of
+                people living in rural areas, often relatively isolated and sparsely populated areas.
+                <br>
+                The main objective of the rural development programme is to raise the economic and social level of the
+                rural people. Rural development implies both the economic betterment of people as well as greater social
+                transformation. Rural Development refers to the process of improving or uplifting the living conditions
+                of the people living in rural areas. The people of India live mostly in rural areas (villages).
+                Therefore, it is in the heart of the villages that the nation lives. Indeed, “the soul of India is in
+                the toil of the rural areas”. The welfare of India depends upon the prosperity of the villages.
+            </p>
+        </div><br><br>
+        <div class="img1"><img
+                src="data:image/jpeg;base64,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">
+        </div>
+        <div class="imp">
+            <p>
+            <ul>
+                <li><b>A large proportion of population is living in rural areas.</b></li>
+                <OL>
+                    <li>Rural people account for about 3/4th (75%) of the total population.</li>
+                    <li>In 2016, 68.84% of the population accounted for the rural population.</li>
+                    <li>They have always lagged much behind the overall progress of the economy.</li>
+                </OL>
+                <li><b>Agriculture: Major source of livelihood.</b></li>
+                <ol>
+                    <li>
+                        Agriculture is still a major source of livelihood in rural areas.
+                    </li>
+                    <li>More than two-third of India’s population depends on it.</li>
+                    <li>So, the development of agriculture will contribute to the betterment of rural areas and rural
+                        people</li>
+                </ol>
+                <li><b>Lack of basic necessities</b></li>
+                <ol>
+                    <li>Majority of poor people live in rural areas.</li>
+                    <li>They do not have access to basic necessities of life like food, health facilities, sanitation,
+                        etc.</li>
+                </ol>
+            </ul>
+            </p>
+        </div><br><br>
+        <p class="extra">More than two-third of the country’s people are dependent on agriculture for their livelihood,
+            and one-third of rural India is still below the poverty line. Therefore, it is important for the government
+            to be productive and provide enough facilities to upgrade their standard of living.
+            Rural development is a term that concentrates on the actions taken for the development of rural areas to
+            improve the economy. However, few areas that demand more focused attention and new initiatives are:
+            <br>
+            1.Education<br>
+            2.Public health and Sanitation<br>
+            3.Women empowerment<br>
+            4.Infrastructure development (electricity, irrigation, etc.)<br>
+            5.Facilities for agriculture extension and research<br>
+            6.Availability of credit<br>
+            7.Employment opportunities<br>
+            Let us discuss some of major factors where development is very important......
+        </p>
+        </div>
+        <div class="img2"> <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTzsFrciDt-vN-B7Ig3-QsRsWvI3oYC1FEfg&usqp=CAU">
+        </div>
+        <br><br>
+        <div class="employ">
+            <p>
+                <b>EMPLOYMENT</b> <br>
+                The primary aim of rural individuals is to obtain good and well-paid employment opportunities. They
+                possess the viewpoint that obtaining employment opportunities would enable them to sustain their living
+                conditions in an appropriate manner. The rural individuals are engaged in number of employment
+                opportunities. These include, blue-collar as well as white collar jobs. They are acquiring higher
+                educational qualifications and are engaged in reputed employment opportunities. In order to obtain a
+                good job, it is vital for the individuals to enhance their skills and abilities and acquire good
+                education.
+                <br>
+                <br>
+                More employment in rural areas can be created by taking the following steps:
+                <br>1. Farmers should diversify agriculture and adopt horticulture, animal rearing, organic farming,
+                pisciculture besides farming.
+                <br> 2. Government should take necessary steps to provide loans to farmers at cheaper rates and from
+                formal sources of credit.
+                <br>3. Creation of basic infrastructure facilities such as roads, transportation, market, and banking
+                will lead to the creation of employment opportunities in rural areas.
+                <br>4. Establishment and promotion of cottage and small-scale industries will also increase employment
+                opportunities in rural areas.
+                <br> 5. Making provisions for education and health services in rural belts can also result in
+                employment.
+                <br> There are also many schemes and yojanas provided by government to sustain employment....<br><br>
+                <b>Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA) This is one of the most important
+                    and effective scheme for rural employment for development.</b>
+            </p>
+        </div><br><br>
+        <div class="img3"> <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbG4QdkgCaSfTraBzsBZ6k2Jep8O38WESkXg&usqp=CAU">
+            <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_YTBL-4L0Sl0AK-Njb0IxaCgYRhpjLMcvXA&usqp=CAU">
+        </div>
+        <br><br>
+        <div class="agriculture">
+            <p>
+                <b>AGRICULTURE</b> <br>
+                Three-quarters of the world’s poor live in rural areas and most earn their living from farming.
+                Enhancing agricultural productivity is thus essential to achieving poverty reduction. Productivity
+                growth in agriculture is also the driving force behind structural transformation.
+                <br>
+                <br>
+                Major steps taken by the government to improve the agriculture system in India are:
+                <br>1. Green revolution played an important role in improving agriculture productivity. New technologies
+                and HYV seeds were used to improve production in the agriculture sector.
+                <br> 2. Government fixes the minimum and maximum prices of the products. Minimum support price policy,
+                subsidies on the agriculture inputs were some of the steps taken by the government.
+                <br>3. Government established Grameen banks in the rural areas to provide loans at a lower rate of
+                interest and even in some of these schemes without the collateral securities the loans are provided to
+                the farmers.
+                <br>4. Government introduced various initiatives for the farmers from time to time. PMFBY, PKVY, PMKSY
+                PM- Kisan scheme were some of the initiatives taken by the government.
+                <br>
+            </p>
+        </div>
+        <div class="img4"> <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcnLfc3j-1YMmss5nMq_fa-AMBCCxLfiPKbA&usqp=CAU">
+        </div>
+        <br><br>
+        <div class="women">
+            <p>
+                <b>WOMEN</b> <br>
+                Women play important roles in the rural economy as farmers, wage earners and entrepreneurs. They also
+                take responsibility for the well-being of the members of their families, including food provision and
+                care for children and the elderly. Rural women’s unpaid work, particularly in poor households, often
+                includes collecting wood and water. Women from indigenous and grassroots communities are often also
+                custodians of traditional knowledge, which is key for their communities’ livelihoods, resilience and
+                culture. Yet, women in rural areas face constraints in engaging in economic activities because of
+                gender-based discrimination and social norms, disproportionate involvement in unpaid work, and unequal
+                access to education, healthcare, property, and financial and other services. They are also
+                disproportionately vulnerable to the impacts of environmental disasters and climate change.
+                <br>
+                <br>
+            </p>
+        </div>
+        <br><br>
+        <div class="img5"> <img
+                src="data:image/jpeg;base64,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">
+        </div>
+        <br><br>
+        <div class="ujjwala">
+            <p>
+                <br> Promoting and ensuring gender equality, and empowering rural women through decent work and
+                productive employment, not only contributes to inclusive and sustainable economic growth, but also
+                enhances the effectiveness of poverty reduction and food security initiatives, as well as climate change
+                mitigation and adaptation efforts. The International Labour Organization (ILO)’s Decent Work Agenda
+                offers an integrated framework for rural women’s empowerment, underpinned by international labour
+                standards, social dialogue and the recognition that rural women play a key role in climate action.
+                <br>
+                <br>
+            </p>
+        </div>
+        <br><br><br>
+        <div class="img6"> <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYueE5XtXhf1lfQu6A3cNbMPc4OZUvCHJuwg&usqp=CAU">
+            <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmP2moCkNDQRCAK5hkENKB73xteQ-RRogR3Q&usqp=CAU">
+        </div>
+        <br><br>
+        <div class="education">
+            <p>
+                <b>EDUCATION</b><br>
+                <br> <b>Why is it important to educate rural India?</b><br>
+                Education opens up new opportunities to access new information and technology that enables an individual
+                to make the right decisions in both personal and professional life. It allows children to understand
+                policies, rights, laws from the young age which will be helpful in the future. As 65% of the population
+                of India is situated in rural areas, emphasizing on rural education will help boost the overall economy.
+                Furthermore, it will also help in reduce migration of people from rural areas to cites of employment and
+                create new opportunities.
+                <br>Educating communities means developing schools and educating children and leaders. By doing so,
+                rural communities will lead to a healthier and more sustainable future. An education system in rural
+                communities has the opportunity to build capacity and knowledge in the rural populace, helping them to
+                make informed decisions about their farms and to innovate in agricultural affairs. Education also
+                exposes the masses to information and helps prevent the misinterpretation of information. Education can
+                lead to many positive outcomes, such as an improved ability to understand policies, procedures, rights,
+                duties, government schemes, legislation, available benefits, and protection laws.
+                <br>It is important to understand the need for good quality education in rural areas, as it helps keep
+                rural areas populated. Young people move to urban areas for better opportunities in education and
+                employment, improved rural education is one possible strategy for keeping them in rural areas. It was
+                recently documented that 69% of India’s population lives in rural areas. Quality education is a
+                pertinent tool for enhancing quality of life, creating awareness and capability, increasing freedom, and
+                improving overall holistic human development for the people and the nation.
+                <br><b>By understanding this, the government of India has launched many initiatives to promote education
+                    in rural areas.</b>
+                <br>• Samagra Shiksha
+                <br>• Shiksha Karmi Project
+                <br>• Lok Jambish Pariyojana
+                <br>• Digital initiatives
+                <br>
+                <br>
+            </p>
+        </div><br><br>
+        <div class="img7"> <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwO6NpGWvIVroObIEFR9cbW1MstWYNVp27WQ&usqp=CAU">
+            <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPyUoNyNOblmviY6aejHYFtJsBF8AkpNZ3_oNLYE2yqanCtscGqm1_1S8-lkvjv0NYrPY&usqp=CAU">
+        </div>
+        <br><br>
+        <div class="health">
+            <p>
+                <b>HEALTH</b>
+                <br> Rural Health care is one of biggest challenges facing the Health Ministry of India. With more than
+                70 percent population living in rural areas and low level of health facilities, mortality rates due to
+                diseases are on a high.
+                <br>
+                The Problems:Due to non accessibility to public health care and low quality of health care services, a
+                majority of people in India turn to the local private health sector as their first choice of care. If we
+                look at the health landscape of India 92 percent of health care visits are to private providers of which
+                70 percent is urban population. However, private health care is expensive, often unregulated and
+                variable in quality. Besides being unreliable for the illiterate, it is also unaffordable by low income
+                rural folks.
+                <br>
+                To control the spread of diseases and reduce the growing rates of mortality due to lack of adequate
+                health facilities, special attention needs to be given to the health care in rural areas. The key
+                challenges in the healthcare sector are low quality of care, poor accountability, lack of awareness, and
+                limited access to facilities.
+                <br>
+                The health care infrastructure in rural areas has been developed as a three tier system as follows.
+                <br>
+                <b>1.Sub Centre</b>: Most peripheral contact point between Primary Health Care System & Community manned
+                with one HW(F)/ANM & one HW(M).
+                <br><b>2.Primary Health Centre(PHC)</b>:PHC is the first contact point between village community and the
+                medical officer. The PHCs were envisaged to provide an integrated curative and preventive health care to
+                the rural population with emphasis on preventive and promotive aspects of health care. A Referral Unit
+                for 6 Sub Centres 4-6 bedded manned with a Medical Officer Incharge and 14 subordinate paramedical
+                staff.
+                <br><b>3.CommunityHealth Centre(CHC)</b>:A 30 bedded Hospital/Referral Unit for 4 PHCs with Specialized
+                services.
+                <br><b><br>THERE ARE MANY SCHEMES/YOJANA PROVIDED BY GOVERNMENT TO SUSTAIN RURAL DEVELOPMENT ....
+                    <br>You can know more about all the schemes and programes here...and can also apply for the schemes
+                    by providing required information and most importantly your AADHAR CARD(mandatory).
+                    All the details related to government schemes are available in the SCHEMES coloum.</b>
+
+                <br>
+                <br>
+            </p>
+        </div>
+    </main>
+    <footer>
+        <pre>  <p class="contactus"><B>                                                                Contact | 0731-000              Email | schemedeck@gmail.com</B></p></pre>
+    </footer>
+</body>
+
+</html>
